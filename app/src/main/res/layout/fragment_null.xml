@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NullFragment"
+    android:id="@+id/number_like"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/round_lauout_coment">
+
+    <TextView
+        android:id="@+id/text_kol_ocenok_2_openItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/amiko_bold"
+        android:text="000"
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/amiko_bold"
+        android:text="Dive Logs"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button_add_divee"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="@font/amiko_bold"
+        android:text="Log a Dive"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button_add_divee_close"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/gradient_close"
+        android:fontFamily="@font/amiko_bold"
+        android:text="Log a Dive"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+</FrameLayout>

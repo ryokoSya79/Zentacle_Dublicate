@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search_fragment"
+    android:background="@color/white_main">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textColor= "@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/amiko_bold"
+                android:textSize="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <EditText
+                android:id="@+id/search_edit_text_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:hint="Location, site, tags"
+                android:textColorHint="@color/text_skip"
+                android:background="@drawable/round_to_edit"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/search_edittext"
+                android:imeOptions="actionDone"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search results"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:fontFamily="@font/amiko_bold"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="185dp"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="250dp"
+                android:text="There is no such content yet :("
+                android:textColor="@color/text_skip"
+                android:textStyle="bold"
+                android:fontFamily="@font/amiko_bold"
+                android:textSize="35dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rc_view_search_result"
+                android:layout_width="match_parent"
+                android:layout_height="1100dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"/>
+
+
+
+            <ImageView
+                android:id="@+id/connect_errSearchUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="-200dp"
+                android:src="@drawable/component_20" />
+        </FrameLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment5"
+    android:background="@color/white_main">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome,"
+        android:textColor= "@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/amiko_bold"
+        android:textSize="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:id="@+id/name_main_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginTop="40dp"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amiko_bold"
+        android:textStyle="bold"
+        android:layout_marginLeft="200dp"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dive Sites Nearby"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="@font/amiko_bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="130dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rc_view"
+            android:layout_marginTop="170dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/seeAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See All"
+        android:textColor = "@color/black"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="303dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/amiko_bold"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dive shops"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:fontFamily="@font/amiko_bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="530dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="20dp"/>
+    <ImageView
+        android:id="@+id/connect_errMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-100dp"
+        android:src="@drawable/component_20" />
+
+</FrameLayout>

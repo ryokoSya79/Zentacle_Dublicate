@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment3"
+    android:background="@color/white_main">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Become a\nZentacle member."
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:fontFamily="@font/amiko_bold"
+        android:textStyle = "bold"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="25dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Email"
+        android:autofillHints="emailAddress"
+        android:textColorHint="@color/text_skip"
+        android:layout_marginTop="215dp"
+        android:textColor="@color/black"
+        android:background="@drawable/round_to_edit"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="20dp"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/name_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/round_to_edit"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_skip"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="25dp"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:autofillHints="password"
+        android:textColorHint="@color/text_skip"
+        android:layout_marginTop="345dp"
+        android:textColor="@color/black"
+        android:background="@drawable/round_to_edit"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:background="@drawable/gradient"
+        android:layout_marginTop="444dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/amiko_bold"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have an account?"
+        android:textStyle="bold"
+        android:layout_marginTop="512dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="110dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/text_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:layout_marginTop="512dp"
+        android:textColor = "@color/start_color"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:fontFamily="@font/amiko_bold"
+        android:layout_marginLeft="232dp"/>
+
+    <ImageView
+        android:id="@+id/successfully"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="-110dp"
+        android:src="@drawable/ic_successfully" />
+
+
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".See_All_Fragment"
+    android:background="@color/white_main">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="25dp"
+        android:id = "@+id/rc_view_see_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="            Dive Sites Nearby"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/amiko_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/back_button_seeAll"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_back_button"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+</FrameLayout>

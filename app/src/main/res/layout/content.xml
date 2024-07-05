@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="330dp"
+    android:layout_height="325dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/round_lauout">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toEndOf="@+id/ocenka"
+        app:layout_constraintTop_toBottomOf="@+id/image_diving"
+        app:srcCompat="@drawable/ic_ocenka_image" />
+
+    <ImageView
+        android:id="@+id/image_diving"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/load_image"
+        android:scaleType="centerCrop"
+        android:background="@color/load_image"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/tema_diving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Tema diving"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_diving" />
+
+    <TextView
+        android:id="@+id/text_lovation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:text="Location"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tema_diving" />
+
+    <TextView
+        android:id="@+id/level_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Level user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_lovation"
+        android:textColor="@color/end_color"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/ocenka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:text="5.0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/level_user"
+        app:layout_constraintTop_toBottomOf="@+id/text_lovation" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="-5dp"
+        android:text="."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/level_user"
+        app:layout_constraintTop_toBottomOf="@+id/text_lovation" />
+
+    <TextView
+        android:id="@+id/number_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="4dp"
+        android:text="(463)"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/ocenka"
+        app:layout_constraintTop_toBottomOf="@+id/text_lovation" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_diving"
+        app:srcCompat="@drawable/ic_test_origin_icon_location" />
+
+    <TextView
+        android:id="@+id/numberContetn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="21dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/tema_diving"
+        app:layout_constraintTop_toBottomOf="@+id/image_diving"
+        android:textColor="@color/white"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
