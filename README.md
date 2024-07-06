@@ -5,4 +5,4 @@ Zentacle Dublicate - это приложение для любителей да�
 
 Идею взял от оригинального приложения - Zentacle: https://apps.apple.com/ru/app/scuba-dive-log-by-zentacle
 
-Дизайн приложения - Behance: https://www.behance.net/gallery/176587943/Zentacle-Mobile-App-UIUX-Design?tracking_source=search_projects|app
+За основу дизайна приложения - Behance: https://www.behance.net/gallery/176587943/Zentacle-Mobile-App-UIUX-Design?tracking_source=search_projects|app
